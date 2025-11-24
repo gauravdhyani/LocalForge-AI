@@ -2,7 +2,7 @@
 
 **Privacy-First AI Coding Assistant** - A comprehensive AI-powered development tool with advanced RAG capabilities and document processing, built for enhanced productivity and learning.
 
-[![DeepSeek Coder](https://img.shields.io/badge/Model-DeepSeek%20Coder%201.3B-blue.svg)](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct-v1.5)
+[![DeepSeek Coder](https://img.shields.io/badge/Model-DeepSeek%20Coder%201.3B-blue.svg)](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct)
 [![RAG Enabled](https://img.shields.io/badge/RAG-Retrieval%20Augmented-orange.svg)](#features)
 [![React Frontend](https://img.shields.io/badge/Frontend-React%2018-green.svg)](https://reactjs.org/)
 [![FastAPI Backend](https://img.shields.io/badge/Backend-FastAPI-red.svg)](https://fastapi.tiangolo.com/)
