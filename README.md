@@ -11,6 +11,11 @@
 
 LocalForge AI is a full-stack AI coding assistant that combines the power of DeepSeek Coder 1.3B with advanced document understanding and retrieval capabilities. The system provides both direct code assistance and contextual learning through uploaded documents, making it an invaluable tool for developers, researchers, and students.
 
+<figure>
+  <img width="1920" height="960" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/84a000dc-6ea5-40e8-8df4-1413ae51fd20" /><br>
+  <img width="1914" height="957" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/93775473-99f0-4d19-bddd-bb8fd7813a3c" /><br>
+</figure>
+
 ---
 
 ### Core Features
