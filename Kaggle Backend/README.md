@@ -301,8 +301,7 @@ Check Kaggle notebook output for:
 - Performance metrics
 
 ## License
-
-This project is designed for educational and research purposes. Ensure compliance with DeepSeek AI model licensing terms.
+This project is part of LocalForge AI suite.
 
 ---
 
