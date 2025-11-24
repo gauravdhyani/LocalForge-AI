@@ -101,22 +101,18 @@ NGROK_TOKEN = "PlaceHolder"   # ⚠️ Configuration: Change this token to your 
 - **CORS** support, API key authentication
 - Robust error handling and file validation
 
----
-
 ## **Advanced Optimizations**
 - **Async processing** for embeddings, file handling, and model loading
 - **Context compression** for efficient prompt construction
 - **Similarity threshold tuning** for precise retrieval
 - Automatic **GPU memory management** and garbage collection
 
----
 
 ## **Security**
 -  API key authentication & controlled CORS
 -  Input sanitization and file validation
 -  Privacy-first local inference (no external data sharing)
 
----
 
 ## **Technical Specs**
 - **Model size**: ~3GB (DeepSeek Coder 1.3B)
@@ -132,29 +128,29 @@ NGROK_TOKEN = "PlaceHolder"   # ⚠️ Configuration: Change this token to your 
 ### System Architecture
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Client (VS Code/Web)                      │
+│                    Client (VS Code/Web)                     │
 └─────────────────────────┬───────────────────────────────────┘
                           │ HTTP/WebSocket
 ┌─────────────────────────▼───────────────────────────────────┐
 │                   FastAPI Backend                           │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │              LocalForge AI Core                     │   │
-│  │                                                     │   │
-│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │   │
-│  │  │   RAG API   │  │ File Upload │  │ Chat API   │  │   │
-│  │  └─────────────┘  └─────────────┘  └─────────────┘  │   │
-│  └─────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              LocalForge AI Core                     │    │
+│  │                                                     │    │
+│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │    │
+│  │  │   RAG API   │  │ File Upload │  │ Chat API    │  │    │
+│  │  └─────────────┘  └─────────────┘  └─────────────┘  │    │
+│  └─────────────────────────────────────────────────────┘    │
 └─────────────────────────┬───────────────────────────────────┘
                           │
 ┌─────────────────────────▼───────────────────────────────────┐
-│              DeepSeek Coder 1.3B Model                     │
+│              DeepSeek Coder 1.3B Model                      │
 │  • GPU T4 Optimized                                  •      │
 │  • 8-bit Quantization                                •      │
 │  • Pipeline Loading                                  •      │
 └─────────────────────────┬───────────────────────────────────┘
                           │
 ┌─────────────────────────▼───────────────────────────────────┐
-│                Data Layer                                    │
+│                Data Layer                                   │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐          │
 │  │   SQLite    │  │  File Store │  │ Embeddings  │          │
 │  │  (Threads)  │  │   (Uploads) │  │   (Vectors) │          │
