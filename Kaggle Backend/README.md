@@ -3,7 +3,7 @@
 A privacy-first, local AI coding assistant built with DeepSeek Coder 1.3B model, featuring RAG capabilities, multi-format document processing, and WebSocket API.
 
 [![GPU Optimized](https://img.shields.io/badge/GPU-T4%20Optimized-blue.svg)](https://kaggle.com)
-[![Model](https://img.shields.io/badge/Model-DeepSeek--Coder--1.3B-green.svg)](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct-v1.5)
+[![Model](https://img.shields.io/badge/Model-DeepSeek--Coder--1.3B-green.svg)](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct)
 [![Framework](https://img.shields.io/badge/Framework-FastAPI-red.svg)](https://fastapi.tiangolo.com/)
 [![RAG](https://img.shields.io/badge/RAG-Enabled-orange.svg)](#features)
 
